@@ -1,10 +1,5 @@
 [build]
-command = "pip install -r requirements.txt"
+command = "source ~/.nix-profile/etc/profile.d/nix.sh && pip install -r requirements.txt"
 
 [start]
-command = "python GeminiDiscordBot.py"
-
-[variables]
-DISCORD_BOT_TOKEN = "@your_discord_bot_token"
-GOOGLE_AI_KEY = "@your_google_ai_key"
-MAX_HISTORY = "@your_max_history_value"
+command = "source ~/.nix-profile/etc/profile.d/nix.sh && python GeminiDiscordBot.py"
