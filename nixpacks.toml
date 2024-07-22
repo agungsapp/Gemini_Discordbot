@@ -1,5 +1,4 @@
 [build]
-  # Tentukan perintah untuk menjalankan aplikasi
   entrypoint = "python GeminiDiscordBot.py"
 
 [variables]
