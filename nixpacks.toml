@@ -1,7 +1,10 @@
 [build]
-  entrypoint = "python GeminiDiscordBot.py"
+command = "pip install -r requirements.txt"
+
+[start]
+command = "python GeminiDiscordBot.py"
 
 [variables]
-  DISCORD_BOT_TOKEN = "@your_discord_bot_token"
-  GOOGLE_AI_KEY = "@your_google_ai_key"
-  MAX_HISTORY = "@your_max_history_value"
+DISCORD_BOT_TOKEN = "@your_discord_bot_token"
+GOOGLE_AI_KEY = "@your_google_ai_key"
+MAX_HISTORY = "@your_max_history_value"
